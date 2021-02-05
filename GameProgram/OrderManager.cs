@@ -12,7 +12,7 @@ namespace GameProgram
             if (game.gamePrice>=100 && game.gamePrice<150)
             {
                 game.gamePrice = game.gamePrice - 20;
-                Console.WriteLine ("Büyük Şubat İndirimi ----> -20TL");
+                Console.WriteLine ("Büyük Şubat İndirimi -----> -20TL");
                 Console.WriteLine("İndirimli fiyat:" + game.gamePrice);
                 Console.WriteLine(gamer.FirtName + " , " + game.gameName + " satın aldınız. Keyifle oynamanız dileğiyle !");
             }
@@ -20,7 +20,7 @@ namespace GameProgram
             else if (game.gamePrice>=150)
             {
                 game.gamePrice = game.gamePrice - 30;
-                Console.WriteLine("Kış Sonu İndirimi ----> -30TL");
+                Console.WriteLine("Kış Sonu İndirimi -----> -30TL");
                 Console.WriteLine("İndirimli fiyat:" + game.gamePrice);
                 Console.WriteLine(gamer.FirtName + " , " + game.gameName + " satın aldınız. Keyifle oynamanız dileğiyle !");
 

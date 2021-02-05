@@ -32,6 +32,7 @@ namespace GameProgram
 
             OrderManager orderManager = new OrderManager();
             orderManager.Buy(gamer1, game1);
+            // OrderManager daki bazı düzenlemeler sayesinde kampanyayı buy metoduna entegre etmeye çalıştım.
 
 
 
